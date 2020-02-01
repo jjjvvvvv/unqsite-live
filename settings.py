@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'unqsite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd8qi2m6202a9rc',
+        'USER': 'chiiluwjpnfxbw',
+        'PASSWORD': 'c76891e7c7b9877d4a40866d37aeedc353e3524ea90a9ab60fc041616dd50c5f',
+        'HOST': 'ec2-107-22-216-151.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
