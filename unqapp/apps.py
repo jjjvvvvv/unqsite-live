@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class UnqappConfig(AppConfig):
-    name = 'unqapp'
+    name = 'formapp'
