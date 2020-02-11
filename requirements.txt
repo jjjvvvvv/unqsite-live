@@ -12,3 +12,4 @@ six==1.13.0
 sqlparse==0.3.0
 whitenoise==5.0.1
 wrapt==1.11.2
+django-crispy-forms==1.8.1
