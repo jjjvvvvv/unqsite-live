@@ -10,15 +10,13 @@ from .forms import ContactForm, SnippetForm
 def contact(request):
 
     if request.method == "POST":
-        form = SnippetForm(request.POST)
+        form = ContactForm(request.POST)
         if form.is_valid():
 
             name = form.cleaned_data['name']
             email = form.cleaned_data['email']
             phone = form.cleaned_data['phone']
             message = form.cleaned_data['message']
-            
-            form.save()
 
     form = ContactForm()
     return render(request, 'form.html', {'form': form})
@@ -33,3 +31,4 @@ def snippet_detail(request):
 
     form = SnippetForm()
     return render(request, 'form.html', {'form': form})
+
