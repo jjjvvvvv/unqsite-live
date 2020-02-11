@@ -21,7 +21,7 @@ def contact(request):
             form.save()
 
     form = ContactForm()
-    return render(request, 'home.html', {'form': form})
+    return render(request, 'form.html', {'form': form})
 
 def snippet_detail(request):
 
@@ -32,4 +32,4 @@ def snippet_detail(request):
 
 
     form = SnippetForm()
-    return render(request, 'home.html', {'form': form})
+    return render(request, 'form.html', {'form': form})
