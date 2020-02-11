@@ -4,8 +4,8 @@ from .forms import ContactForm, SnippetForm
 
 # Create your views here.
 
-def home(request):
-    return render(request, 'unqapp/home.html')
+#def home(request):
+#    return render(request, 'unqapp/home.html')
 
 def contact(request):
 
