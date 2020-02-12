@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '9l7%zm1giv!be-k&7dru$1e2s)bi7&b)k@jntecxt=1_16m1wp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['unqsite.herokuapp.com', '127.0.0.1', 'www.unconqueredservices.com', 'unconqueredservices.com']
 
